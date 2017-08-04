@@ -1,0 +1,11 @@
+打包:
+./node_modules/.bin/webpack app/index.js dist/bundle.js
+
+Using webpack with a config:
+./node_modules/.bin/webpack --config webpack.config.js
+
+Using webpack with npm:
+npm run build
+
+查看版本
+npm info webpack
